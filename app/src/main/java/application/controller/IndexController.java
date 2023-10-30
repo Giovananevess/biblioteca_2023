@@ -5,9 +5,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class IndexController {
-    @RequestMapping("/")
+        @RequestMapping("/")
     public String home() {
-        return "WEB-INF/home.jsp";
+        //return "WEB-INF/home.jsp";
+        return "home";
     }
-}
 
